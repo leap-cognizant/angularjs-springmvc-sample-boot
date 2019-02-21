@@ -19,7 +19,7 @@ gulp.task('templates', function () {
 });
 
 gulp.task('serve', ['templates'], function () {
-    var proxyOptions = url.parse('http://localhost:9000/api');
+    var proxyOptions = url.parse('http://localhost:9010/api');
     proxyOptions.route = '/api';
     browserSync.init({
         notify: false,
