@@ -1,4 +1,4 @@
-angularjs-springmvc-sample-boot
+testangularjs-springmvc-sample-boot
 ===============================
 
 An example application using AnguarJS/Bootstrap as frontend and Spring MVC as REST API producer.
